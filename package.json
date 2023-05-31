@@ -1,0 +1,16 @@
+{
+  "name": "clean-architecture-typescript",
+  "version": "1.0.0",
+  "description": "Experimental boilerplate to comply clean architecture for Typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./build && tsc -p tsconfig.json",
+    "start": "ts-node ./src/main.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
